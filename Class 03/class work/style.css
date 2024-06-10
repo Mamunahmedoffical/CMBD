@@ -1,0 +1,28 @@
+h2 {
+  color: hsl(0, 0%, 0%);
+}
+
+p {
+  background-color: aquamarine;
+
+  font-size: 40px;
+  color: aquamarine;
+}
+
+a {
+  color: pink !important;
+}
+
+.heading {
+  color: rgb(250, 11, 63);
+  font-size: 50px;
+  background-color: black;
+}
+
+.heading2 {
+  color: aqua;
+}
+
+.lorem {
+  background-color: aqua;
+}

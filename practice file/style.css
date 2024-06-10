@@ -1,0 +1,14 @@
+h1 {
+  background-color: black;
+  color: wheat;
+  border-left: 10px solid red;
+  border-right: 10px solid red;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+
+  background-color: brown;
+}

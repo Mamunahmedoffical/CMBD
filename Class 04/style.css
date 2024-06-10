@@ -1,0 +1,37 @@
+.heading {
+  color: rgb(253, 217, 14);
+  background-color: rgb(255, 0, 0);
+}
+
+.mamun {
+  border: 10px solid red;
+  font-size: 30px;
+}
+
+p {
+  color: red;
+  background-color: aqua;
+}
+
+a {
+  color: orange;
+}
+
+h3 {
+  font-size: 36px;
+}
+.mam {
+  color: aquamarine;
+  background-color: brown;
+}
+
+h4 {
+  color: blue;
+  background-color: black;
+  font-size: 33px;
+}
+
+#heading {
+  background-color: aquamarine;
+  color: rgb(0, 97, 241);
+}

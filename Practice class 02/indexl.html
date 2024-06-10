@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">HTML FORMS</h1>
+    <fieldset>
+      <legend style="color: brown; font-size: 25px">User Registration</legend>
+      <label for="user">Your Name:</label>
+      <span style="color: red">*</span>
+      <input
+        type="text"
+        id="user"
+        name="user"
+        placeholder="your name"
+        required
+      />
+      <br /><br />
+      <label for="user1">Your Email:</label>
+      <span style="color: red">*</span>
+      <input
+        type="text"
+        id="user1"
+        name="user1"
+        placeholder="Your Email"
+        required
+      />
+      <br /><br />
+      <label for="user2">Your phone:</label>
+      <span style="color: red">*</span>
+      <input
+        type="text"
+        id="user2"
+        name="user2"
+        placeholder="Your phone"
+        required
+      />
+      <br /><br />
+      <label for="user3">Your password:</label>
+      <span style="color: red">*</span>
+      <input
+        type="text"
+        id="user3"
+        name="user3"
+        placeholder="1234566788"
+        required
+      />
+      <br /><br />
+      <label for="country"> choose country:</label>
+      <input list="brt" id="country" />
+      <datalist id="brt">
+        <option value="bangladesh">bangladesh</option>
+        <option value="india">india</option>
+        <option value="dubai">dubai</option>
+        <option value="pakistan">pakistan</option>
+        <option value="napal">napal</option>
+      </datalist>
+      <br /><br />
+      <label for="gen">gender:</label>
+      <br />
+      <input type="radio" name="gen" />male
+      <input type="radio" name="gen" />female
+      <input type="radio" name="gen" />others <br /><br />
+      <label for="date">Date of Birth:</label>
+      <input type="date" id="date" />
+      <br /><br />
+      <label for="picture">Upload Image:</label>
+      <input type="file" id="picture" />
+      <br /><br />
+      <label for="mess"> Your Message:</label>
+      <br />
+      <textarea
+        name="comment"
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="comment here............."
+      ></textarea>
+      <br /><br />
+      <input type="checkbox" required />
+      <label for="choose">Agree to trams & conditions</label>
+      <span style="color: red">*</span>
+      <br /><br />
+      <input type="submit" value="send" />
+      <input type="reset" value="reset" />
+    </fieldset>
+  </body>
+</html>
+index.html Displaying index.html.

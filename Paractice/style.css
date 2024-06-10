@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+}
+
+svg {
+  width: 30px;
+  color: red;
+}
+.hero-section {
+  height: 1000px;
+  background-image: url(https://websitedemos.net/guitarist-02/wp-content/uploads/sites/880/2021/06/hero-section-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+  color: rgb(243, 194, 66);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  /* padding-top: 30px; */
+}
+
+h1 {
+  font-size: 90px;
+  line-height: 126px;
+}
+.btn {
+  padding: 20px 20px;
+  margin-top: 50px;
+  color: rgb(243, 194, 66);
+  text-transform: uppercase;
+  text-decoration: none;
+  /* background-color: yellow; */
+  display: inline-block;
+  border: 2px solid #f3c242;
+  padding: 12px 30px;
+}
+
+p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.icon i {
+  display: inline-block;
+  color: black;
+  background-color: #f3c242;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 40px;
+}
+.div-section {
+  margin-left: 30px;
+  padding-top: 100px;
+}
